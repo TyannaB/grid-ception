@@ -10,6 +10,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -18,5 +23,5 @@ body {
 
 .img-flex {
   width: 100%;
-  display: inline-block;
+  display: block;
 }
